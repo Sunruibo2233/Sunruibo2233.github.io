@@ -14,4 +14,19 @@
 <p>可以加速个人博客</p>
 ]]></content>
   </entry>
+  <entry>
+    <title>hexo搭建个人博客（作者： Lavender @lavender 链接： https://www.lavenderdh.cn/posts/2798011608/）</title>
+    <url>/2023/05/17/hexo/</url>
+    <content><![CDATA[<h1 id="本文作者：-Lavender-lavender"><a href="#本文作者：-Lavender-lavender" class="headerlink" title="本文作者： Lavender @lavender"></a>本文作者： Lavender @lavender</h1><h1 id="本文链接：-https-www-lavenderdh-cn-posts-2798011608"><a href="#本文链接：-https-www-lavenderdh-cn-posts-2798011608" class="headerlink" title="本文链接： https://www.lavenderdh.cn/posts/2798011608/"></a>本文链接： <span class="exturl" data-url="aHR0cHM6Ly93d3cubGF2ZW5kZXJkaC5jbi9wb3N0cy8yNzk4MDExNjA4Lw==">https://www.lavenderdh.cn/posts/2798011608/</span></h1><p>#前期准备（软件环境配置）<br>#1、Nodejs<br>下载链接：<span class="exturl" data-url="aHR0cDovL25vZGVqcy5jbi9kb3dubG9hZC8=">http://nodejs.cn/download/</span></p>
+<p>配置：</p>
+<p>安装教程：<span class="exturl" data-url="aHR0cHM6Ly93d3cucnVub29iLmNvbS9ub2RlanMvbm9kZWpzLWluc3RhbGwtc2V0dXAuaHRtbA==">https://www.runoob.com/nodejs/nodejs-install-setup.html</span><br>检验安装配置成功方法：快捷键 win + r 输入 cmd ，打开命令提示符，输入 node -v 和 npm -v 能正常显示版本号即为成功。<br>#2、Git<br>下载链接：<span class="exturl" data-url="aHR0cHM6Ly9naXQtc2NtLmNvbS9kb3dubG9hZC8=">https://git-scm.com/download/</span></p>
+<p>配置：</p>
+<p>安装教程：<span class="exturl" data-url="aHR0cHM6Ly93d3cucnVub29iLmNvbS9naXQvZ2l0LWluc3RhbGwtc2V0dXAuaHRtbA==">https://www.runoob.com/git/git-install-setup.html</span><br>检验安装配置成功方法：快捷键 win + r 输入 cmd ，打开命令提示符，输入 git –version 能正常显示版本号即为成功。（鼠标右键会有两个新的右键菜单 Git GUI Here 和 Git Bash Here )<br>#3、Typora（可选）(Markdown 编辑器)<br>下载链接：<span class="exturl" data-url="aHR0cHM6Ly90eXBvcmEuaW8vI2Rvd25sb2Fk">https://typora.io/#download</span></p>
+<p>配置：</p>
+<p>直接下载安装即可<br>(在线 Markdown 编辑器：<span class="exturl" data-url="aHR0cHM6Ly9wYW5kYW8uZ2l0aHViLmlvL2VkaXRvci5tZC8=">https://pandao.github.io/editor.md/</span>)<br>#安装 Hexo 框架<br>#1、确定文件夹路径<br>这个文件夹是用来放置博客的，之后的命令就在这个文件夹运行。<br>这里以 D:\web\hexo 路径为例。<br>#2、安装 Hexo 框架<br>npm install -g hexo-cli   	&#x2F;&#x2F;安装hexo的基础框架<br>hexo init  				&#x2F;&#x2F;初始化hexo框架<br>npm install  			&#x2F;&#x2F;安装所需要的组件<br>hexo g					&#x2F;&#x2F;编译生成静态页面 (hexo generate)<br>hexo s					&#x2F;&#x2F;启动本地服务 (hexo server)<br>#3、本地 web 搭建完成<br>在输入 hexo s 后会出现以下代码</p>
+<p>INFO  Validating config<br>INFO  Start processing<br>INFO  Hexo is running at <span class="exturl" data-url="aHR0cDovL2xvY2FsaG9zdDo0MDAwLw==">http://localhost:4000</span> . Press Ctrl+C to stop.<br>此时浏览器输入 &lt;<span class="exturl" data-url="aHR0cDovLzEyNy4wLjAuMTo0MDAwLw==">http://127.0.0.1:4000</span> &gt; 即可打开网页</p>
+<p><span class="exturl" data-url="aHR0cHM6Ly9kMzN3dWJyZmtpMGw2OC5jbG91ZGZyb250Lm5ldC81OTk3YTQwNTc2ZjNiZWNhN2JiYmQ4NmZlNzlhNzk1ZTlkNTIwZDhlLzg3Zjg4L3RoZW1lcy9zY3JlZW5zaG90cy9sYW5kc2NhcGUucG5n">默认首页页面</span></p>
+<p>本地服务器关闭： Ctrl + C ，然后按照提示输入 y 即可。</p>
+]]></content>
+  </entry>
 </search>
